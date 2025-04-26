@@ -1,0 +1,17 @@
+{
+  "name": "tas-fighter",
+  "version": "1.0.0",
+  "description": "TAS Fighter",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "author": "Joseph Valdez",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "prettier": "^3.5.3"
+  }
+}
